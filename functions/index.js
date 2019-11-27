@@ -3,7 +3,7 @@ const admin = require('firebase-admin');
 const app = admin.initializeApp();
 
 const uidFromUrl = (url) => {
-  const [, uid] = url.match(/\/api\/log\/([A-Za-z]+).*/);
+  const [, uid] = url.match(/\/api\/log\/([A-Za-z0-9]+).*/);
   return uid;
 };
 
