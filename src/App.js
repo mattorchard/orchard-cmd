@@ -1,14 +1,19 @@
 import React from 'react';
 import SiteHeader from "./components/SiteHeader";
-import Container from "@material-ui/core/Container";
+import useCurrentUser from "./hooks/useCurrentUser";
+import LogTable from "./components/LogTable";
+import LogLink from "./components/LogLink";
 
 
 function App() {
+  const currentUser = useCurrentUser();
   return (<>
       <SiteHeader/>
-      <Container>
-        <p>Hello World</p>
-      </Container>
+      {currentUser === undefined && "Loading"}
+      {currentUser && <>
+        <LogLink uid={currentUser.uid}/>
+        <LogTable uid={currentUser.uid}/>
+      </>}
     </>
   );
 }

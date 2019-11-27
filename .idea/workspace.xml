@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a145e59d-86d8-4892-a9ff-4a8490903076" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/morch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LogLink.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/LogTable.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/hooks/useWebookLogs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firestore.rules" beforeDir="false" afterPath="$PROJECT_DIR$/firestore.rules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SiteHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SiteHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hooks/useAuthStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useCurrentUser.js" afterDir="false" />
@@ -82,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574821821717</updated>
-      <workItem from="1574821823883" duration="6285000" />
+      <workItem from="1574821823883" duration="8662000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <created>1574822995654</created>
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574824295040</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adds webhook logging endpoint">
+      <created>1574828174046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574828174046</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +144,7 @@
     <MESSAGE value="Fixes app bar styles" />
     <MESSAGE value="Adds login" />
     <MESSAGE value="Init firebase project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init firebase project" />
+    <MESSAGE value="Adds webhook logging endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds webhook logging endpoint" />
   </component>
 </project>
