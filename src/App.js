@@ -1,17 +1,11 @@
 import React from 'react';
-import {AppBar, Typography, Toolbar, Button, Container} from "@material-ui/core";
+import SiteHeader from "./components/SiteHeader";
+import Container from "@material-ui/core/Container";
 
 
 function App() {
   return (<>
-      <AppBar>
-        <Toolbar>
-          <Typography variant="h1" className="app__brand">
-            Orchard CMD
-          </Typography>
-          <Button color="inherit">Login</Button>
-        </Toolbar>
-      </AppBar>
+      <SiteHeader/>
       <Container>
         <p>Hello World</p>
       </Container>
