@@ -1,0 +1,9 @@
+{
+  "apiKey": "AIzaSyD5vMT01sAb4rrZGIsoPmpPkI7ynLqcLFs",
+  "authDomain": "orchard-cmd.firebaseapp.com",
+  "databaseURL": "https://orchard-cmd.firebaseio.com",
+  "projectId": "orchard-cmd",
+  "storageBucket": "orchard-cmd.appspot.com",
+  "messagingSenderId": "342424906293",
+  "appId": "1:342424906293:web:e3ab62114aef759b121f7c"
+}
