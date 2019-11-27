@@ -12,9 +12,14 @@
     ],
     "rewrites": [
       {
+        "source": "/api/log/:uid",
+        "function": "logWebhook"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
+
     ]
   }
 }
